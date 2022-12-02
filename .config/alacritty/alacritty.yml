@@ -1,0 +1,64 @@
+window:
+    padding:
+        x: 5
+        y: 5
+    class:
+        instance: Alacritty
+        general: Alacritty
+    
+scrolling:
+    history: 1024
+    multiplier: 3
+
+font:
+    normal:
+        family: DM Mono
+        style: Regular
+    bold:
+        family: DM Mono
+        style: Medium
+    italic:
+        family: DM Mono
+        style: Italic
+    bold_italic:
+        family: DM Mono
+        style: MediumItalic
+    size: 11
+draw_bold_text_with_bright_colors: false
+
+colors:
+    primary:
+        background: '#23252E'
+        foreground: '#ffffff'
+    normal:
+        black: '#000000'
+        red: '#ec2864'
+        green: '#b084eb'
+        yellow: '#ffb86c'
+        blue: '#7dc1ff'
+        magenta: '#ff90d0'
+        cyan: '#35ffdc'
+        white: '#ffffff'
+    bright: 
+        black: '#000000'
+        red: '#ec2864'
+        green: '#b084eb'
+        yellow: '#ffb86c'
+        blue: '#7dc1ff'
+        magenta: '#ff90d0'
+        cyan: '#35ffdc'
+        white: '#ffffff'
+
+cursor:
+    style:
+        shape: Beam
+        blinking: Off
+        blink-interval: 500
+
+selection:
+    save_to_clipboard: false
+
+live_config_reload: true
+
+shell:
+    program: /usr/bin/bash
